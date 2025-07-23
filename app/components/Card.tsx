@@ -1,11 +1,11 @@
-import Image from 'next/image';
-import avatar from '@/public/avatar-jessica.jpeg';
+import Header from '@/app/components/Header';
+import LinkList from './LinkList';
 
 export default function Card() {
   return (
-    <div className="p-4">
-      <Image src={avatar} alt="Jessica Avatar" />
-      <h1>Some text here</h1>
+    <div className="w-[327px] p-6 md:w-[384px] md:p-10 bg-(--background-mid) rounded-xl">
+      <Header />
+      <LinkList />
     </div>
   );
 }
