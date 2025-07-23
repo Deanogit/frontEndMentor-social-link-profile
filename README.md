@@ -34,3 +34,66 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# Frontend Mentor - Social links profile solution
+
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- See hover and focus states for all interactive elements on the page
+
+### Links
+
+- Live Site URL: [https://front-end-mentor-social-link-profil.vercel.app/]
+
+## My process
+
+### Built with
+
+- [Next.js](https://nextjs.org/)
+- [TailwindCSS] (https://tailwindcss.com)
+- [Typescript] (https://typescriptlang.org)
+
+### What I learned
+
+This is my first Front End Mentor challenge built in Next.js with TailwindCSS and TypeScript
+
+- I mocked a fetch request by storing the social media links in a json file.
+- I wrote a function to grab all the data from the json file and iterated over the data to dynamically render the social media links whilst using TypeScript to ensure type safety.
+
+### Continued development
+
+I will continue to practice this pattern of grabbing data and iterating over the data to dynamically render content.
+
+### Useful resources
+
+- [Scrimba Next.js Course](https://www.scrimba.com) - Introductory course in Next.js
+- [Learn TypeScript](https://www.learntypescript.online) - I have been working through this course to get some understanding of how TypeScript works
+
+## Author
+
+- Website - [Dean Howe](https://www.deanhowe.dev)
+- Frontend Mentor - [@Deanogit](https://www.frontendmentor.io/profile/Deanogit)
+
+## Acknowledgments
+
+Jad Joubran's courses, Brad Traversy, Jonas Schmedtmann & FrontEndMentors!
